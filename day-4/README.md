@@ -116,79 +116,79 @@ example :
 
 below are the most used tags while writing HTML code (including semantic and non semantic elements)
 
-| **Element(s)**    | **Simple description**                                              | **Common use case**                             |
-| ----------------- | ------------------------------------------------------------------- | ----------------------------------------------- |
-| `<html>`          | The root element of an HTML document.                               | Wraps the entire page.                          |
-| `<head>`          | Contains information about the page that is not directly displayed. | Metadata, CSS, title, etc.                      |
-| `<body>`          | Contains the visible content of the page.                           | Text, images, forms, buttons, etc.              |
-| `<title>`         | Defines the title of the page.                                      | Browser tab title.                              |
-| `<meta>`          | Provides information about the page.                                | Character encoding, viewport, description, etc. |
-| `<link>`          | Connects the page to an external resource.                          | Linking CSS files and icons.                    |
-| `<style>`         | Contains CSS code inside the HTML page.                             | Adding internal styling.                        |
-| `<script>`        | Adds or links JavaScript code.                                      | Adding functionality and interactivity.         |
-| `<h1>` – `<h6>`   | Define different levels of headings.                                | Creating page and section headings.             |
-| `<p>`             | Defines a paragraph.                                                | Writing normal text.                            |
-| `<br>`            | Creates a line break.                                               | Moving text to a new line.                      |
-| `<hr>`            | Creates a thematic break between content.                           | Separating sections.                            |
-| `<strong>`        | Shows that text has strong importance.                              | Important text or warnings.                     |
-| `<em>`            | Gives text emphasis.                                                | Emphasizing words or phrases.                   |
-| `<b>`             | Makes text visually bold.                                           | Visual highlighting.                            |
-| `<i>`             | Displays text in an alternate style, usually italic.                | Terms or stylistic text.                        |
-| `<u>`             | Marks text with an underline.                                       | Marking or highlighting text.                   |
-| `<small>`         | Displays smaller text.                                              | Notes and extra information.                    |
-| `<mark>`          | Highlights a part of the text.                                      | Highlighting important or searched text.        |
-| `<del>`           | Represents deleted text.                                            | Showing removed or old content.                 |
-| `<ins>`           | Represents inserted text.                                           | Showing newly added content.                    |
-| `<sub>` / `<sup>` | Displays subscript or superscript text.                             | H₂O, x², footnotes, etc.                        |
-| `<div>`           | A general block-level container.                                    | Grouping and organizing content.                |
-| `<span>`          | A general inline container.                                         | Styling or targeting part of text.              |
-| `<a>`             | Creates a hyperlink.                                                | Linking to pages, files, or locations.          |
-| `<img>`           | Displays an image.                                                  | Adding images to a page.                        |
-| `<figure>`        | Groups self-contained content.                                      | Images, diagrams, charts, etc.                  |
-| `<figcaption>`    | Adds a caption to a figure.                                         | Describing an image or diagram.                 |
-| `<picture>`       | Provides different image sources.                                   | Responsive images.                              |
-| `<audio>`         | Adds audio content.                                                 | Music, podcasts, sound effects.                 |
-| `<video>`         | Adds video content.                                                 | Playing videos.                                 |
-| `<source>`        | Defines a media source.                                             | Providing different media files.                |
-| `<track>`         | Adds text tracks to media.                                          | Subtitles and captions.                         |
-| `<iframe>`        | Embeds another page or resource.                                    | Maps, videos, external pages, etc.              |
-| `<ul>` / `<ol>`   | Create unordered or ordered lists.                                  | Bullet points or numbered lists.                |
-| `<li>`            | Defines an item inside a list.                                      | List items.                                     |
-| `<table>`         | Creates a table.                                                    | Displaying structured data.                     |
-| `<thead>`         | Contains table header rows.                                         | Grouping column headings.                       |
-| `<tbody>`         | Contains the main table rows.                                       | Grouping table data.                            |
-| `<tfoot>`         | Contains table footer rows.                                         | Totals or summaries.                            |
-| `<tr>`            | Defines a table row.                                                | Creating rows.                                  |
-| `<th>`            | Defines a table header cell.                                        | Column or row headings.                         |
-| `<td>`            | Defines a table data cell.                                          | Adding data to a table.                         |
-| `<caption>`       | Gives a table a title or description.                               | Naming a table.                                 |
-| `<form>`          | Creates a form for user input.                                      | Login, registration, search, etc.               |
-| `<input>`         | Creates an input control. have different types                      | Text, email, password, checkbox, etc.           |
-| `<label>`         | Provides a label for a form control.                                | Naming input fields.                            |
-| `<button>`        | Creates a clickable button.                                         | Submitting forms or triggering actions.         |
-| `<textarea>`      | Creates a multi-line input field.                                   | Comments and messages.                          |
-| `<select>`        | Creates a dropdown menu.                                            | Selecting an option.                            |
-| `<option>`        | Defines an option inside a dropdown.                                | Items inside `<select>`.                        |
-| `<optgroup>`      | Groups related dropdown options.                                    | Organizing large dropdowns.                     |
-| `<fieldset>`      | Groups related form controls.                                       | Organizing sections of a form.                  |
-| `<legend>`        | Gives a title to a `<fieldset>`.                                    | Naming a group of fields.                       |
-| `<header>`        | Represents introductory content.                                    | Logo, heading, navigation, etc.                 |
-| `<nav>`           | Contains navigation links.                                          | Menus and navigation bars.                      |
-| `<main>`          | Contains the main content of the page.                              | Main page content.                              |
-| `<section>`       | Defines a related section of content.                               | Grouping related content.                       |
-| `<article>`       | Represents independent content.                                     | Blog posts, news, posts, etc.                   |
-| `<aside>`         | Contains secondary or related content.                              | Sidebars and related links.                     |
-| `<footer>`        | Represents footer content.                                          | Copyright, links, contact information.          |
-| `<address>`       | Provides contact information.                                       | Author or organization contact details.         |
-| `<details>`       | Creates expandable content.                                         | FAQs and additional information.                |
-| `<summary>`       | Provides the visible title for `<details>.`                         | Clickable title for expandable content.         |
-| `<dialog>`        | Represents a dialog or popup window.                                | Modals and dialogs.                             |
-| `<time>`          | Represents a date or time.                                          | Events and publication dates.                   |
-| `<abbr>`          | Represents an abbreviation.                                         | Showing the meaning of an abbreviation.         |
-| `<blockquote>`    | Represents a longer quotation.                                      | Quoting another source.                         |
-| `<q>`             | Represents a short quotation.                                       | Short quotes inside text.                       |
-| `<code>`          | Represents computer code.                                           | Showing code inside text.                       |
-| `<pre>`           | Preserves spaces and line breaks.                                   | Displaying formatted code or text.              |
+| **Element(s)**    | **Simple description**                                             | **Common use case**                            |
+| ----------------- | ------------------------------------------------------------------ | ---------------------------------------------- |
+| `<html>`          | The root element of an HTML document                               | Wraps the entire page                          |
+| `<head>`          | Contains information about the page that is not directly displayed | Metadata, CSS, title, etc                      |
+| `<body>`          | Contains the visible content of the page                           | Text, images, forms, buttons, etc              |
+| `<title>`         | Defines the title of the page                                      | Browser tab title                              |
+| `<meta>`          | Provides information about the page                                | Character encoding, viewport, description, etc |
+| `<link>`          | Connects the page to an external resource                          | Linking CSS files and icons                    |
+| `<style>`         | Contains CSS code inside the HTML page                             | Adding internal styling                        |
+| `<script>`        | Adds or links JavaScript code                                      | Adding functionality and interactivity         |
+| `<h1>` – `<h6>`   | Define different levels of headings                                | Creating page and section headings             |
+| `<p>`             | Defines a paragraph                                                | Writing normal text                            |
+| `<br>`            | Creates a line break                                               | Moving text to a new line                      |
+| `<hr>`            | Creates a thematic break between content                           | Separating sections                            |
+| `<strong>`        | Shows that text has strong importance                              | Important text or warnings                     |
+| `<em>`            | Gives text emphasis                                                | Emphasizing words or phrases                   |
+| `<b>`             | Makes text visually bold                                           | Visual highlighting                            |
+| `<i>`             | Displays text in an alternate style, usually italic                | Terms or stylistic text                        |
+| `<u>`             | Marks text with an underline                                       | Marking or highlighting text                   |
+| `<small>`         | Displays smaller text                                              | Notes and extra information                    |
+| `<mark>`          | Highlights a part of the text                                      | Highlighting important or searched text        |
+| `<del>`           | Represents deleted text                                            | Showing removed or old content                 |
+| `<ins>`           | Represents inserted text                                           | Showing newly added content                    |
+| `<sub>` / `<sup>` | Displays subscript or superscript text                             | H₂O, x², footnotes, etc                        |
+| `<div>`           | A general block-level container                                    | Grouping and organizing content                |
+| `<span>`          | A general inline container                                         | Styling or targeting part of text              |
+| `<a>`             | Creates a hyperlink                                                | Linking to pages, files, or locations          |
+| `<img>`           | Displays an image                                                  | Adding images to a page                        |
+| `<figure>`        | Groups self-contained content                                      | Images, diagrams, charts, etc                  |
+| `<figcaption>`    | Adds a caption to a figure                                         | Describing an image or diagram                 |
+| `<picture>`       | Provides different image sources                                   | Responsive images                              |
+| `<audio>`         | Adds audio content                                                 | Music, podcasts, sound effects                 |
+| `<video>`         | Adds video content                                                 | Playing videos                                 |
+| `<source>`        | Defines a media source                                             | Providing different media files                |
+| `<track>`         | Adds text tracks to media                                          | Subtitles and captions                         |
+| `<iframe>`        | Embeds another page or resource                                    | Maps, videos, external pages, etc              |
+| `<ul>` / `<ol>`   | Create unordered or ordered lists                                  | Bullet points or numbered lists                |
+| `<li>`            | Defines an item inside a list                                      | List items                                     |
+| `<table>`         | Creates a table                                                    | Displaying structured data                     |
+| `<thead>`         | Contains table header rows                                         | Grouping column headings                       |
+| `<tbody>`         | Contains the main table rows                                       | Grouping table data                            |
+| `<tfoot>`         | Contains table footer rows                                         | Totals or summaries                            |
+| `<tr>`            | Defines a table row                                                | Creating rows                                  |
+| `<th>`            | Defines a table header cell                                        | Column or row headings                         |
+| `<td>`            | Defines a table data cell                                          | Adding data to a table                         |
+| `<caption>`       | Gives a table a title or description                               | Naming a table                                 |
+| `<form>`          | Creates a form for user input                                      | Login, registration, search, etc               |
+| `<input>`         | Creates an input control have different types                      | Text, email, password, checkbox, etc           |
+| `<label>`         | Provides a label for a form control                                | Naming input fields                            |
+| `<button>`        | Creates a clickable button                                         | Submitting forms or triggering actions         |
+| `<textarea>`      | Creates a multi-line input field                                   | Comments and messages                          |
+| `<select>`        | Creates a dropdown menu                                            | Selecting an option                            |
+| `<option>`        | Defines an option inside a dropdown                                | Items inside `<select>`                        |
+| `<optgroup>`      | Groups related dropdown options                                    | Organizing large dropdowns                     |
+| `<fieldset>`      | Groups related form controls                                       | Organizing sections of a form                  |
+| `<legend>`        | Gives a title to a `<fieldset>`                                    | Naming a group of fields                       |
+| `<header>`        | Represents introductory content                                    | Logo, heading, navigation, etc                 |
+| `<nav>`           | Contains navigation links                                          | Menus and navigation bars                      |
+| `<main>`          | Contains the main content of the page                              | Main page content                              |
+| `<section>`       | Defines a related section of content                               | Grouping related content                       |
+| `<article>`       | Represents independent content                                     | Blog posts, news, posts, etc                   |
+| `<aside>`         | Contains secondary or related content                              | Sidebars and related links                     |
+| `<footer>`        | Represents footer content                                          | Copyright, links, contact information          |
+| `<address>`       | Provides contact information                                       | Author or organization contact details         |
+| `<details>`       | Creates expandable content                                         | FAQs and additional information                |
+| `<summary>`       | Provides the visible title for `<details>`                         | Clickable title for expandable content         |
+| `<dialog>`        | Represents a dialog or popup window                                | Modals and dialogs                             |
+| `<time>`          | Represents a date or time                                          | Events and publication dates                   |
+| `<abbr>`          | Represents an abbreviation                                         | Showing the meaning of an abbreviation         |
+| `<blockquote>`    | Represents a longer quotation                                      | Quoting another source                         |
+| `<q>`             | Represents a short quotation                                       | Short quotes inside text                       |
+| `<code>`          | Represents computer code                                           | Showing code inside text                       |
+| `<pre>`           | Preserves spaces and line breaks                                   | Displaying formatted code or text              |
 
 ---
 
@@ -196,18 +196,18 @@ below are the most used tags while writing HTML code (including semantic and non
 
 attributes control or provide additional information about HTML elements . some attributes are global and can generally be used with any HTML element , while others are specific to certain elements .
 
-| **Attribute** | **Type** | **Compatible element(s)**                                          | **Simple description**                | **Common use case**                           |
-| ------------- | -------- | ------------------------------------------------------------------ | ------------------------------------- | --------------------------------------------- |
-| `id`          | Global   | All HTML elements.                                                 | Gives an element a unique identifier. | CSS, JavaScript, and page links.              |
-| `class`       | Global   | All HTML elements.                                                 | Assigns one or more class names.      | CSS styling and JavaScript selection.         |
-| `style`       | Global   | All HTML elements.                                                 | Adds inline CSS.                      | Local styling.                                |
-| `title`       | Global   | All HTML elements.                                                 | Provides additional information.      | Extra information about an element.           |
-| `href`        | Specific | `<a>`, `<area>`, `<base>`, `<link>`.                               | Defines a URL.                        | Links and external resources.                 |
-| `src`         | Specific | `<img>`, `<audio>`, `<video>`, `<iframe>`, `<script>`, `<source>`. | Defines an external resource source.  | Images, media, scripts, and embedded content. |
-| `alt`         | Specific | `<img>`, `<area>`, `<input type="image">`.                         | Provides alternative text.            | Accessibility and failed images.              |
-| `type`        | Specific | `<input>`, `<button>`, `<script>`, `<link>` and others.            | Defines the element or resource type. | Input types and external resources.           |
-| `name`        | Specific | Form controls and several other elements.                          | Gives an element a name.              | Form submission and scripting.                |
-| `value`       | Specific | `<input>`, `<button>`, `<option>`, `<li>` and others.              | Defines an element value.             | Forms and list values.                        |
+| **Attribute** | **Type** | **Compatible element(s)**                                         | **Simple description**               | **Common use case**                          |
+| ------------- | -------- | ----------------------------------------------------------------- | ------------------------------------ | -------------------------------------------- |
+| `id`          | Global   | All HTML elements                                                 | Gives an element a unique identifier | CSS, JavaScript, and page links              |
+| `class`       | Global   | All HTML elements                                                 | Assigns one or more class names      | CSS styling and JavaScript selection         |
+| `style`       | Global   | All HTML elements                                                 | Adds inline CSS                      | Local styling                                |
+| `title`       | Global   | All HTML elements                                                 | Provides additional information      | Extra information about an element           |
+| `href`        | Specific | `<a>`, `<area>`, `<base>`, `<link>`                               | Defines a URL                        | Links and external resources                 |
+| `src`         | Specific | `<img>`, `<audio>`, `<video>`, `<iframe>`, `<script>`, `<source>` | Defines an external resource source  | Images, media, scripts, and embedded content |
+| `alt`         | Specific | `<img>`, `<area>`, `<input type="image">`                         | Provides alternative text            | Accessibility and failed images              |
+| `type`        | Specific | `<input>`, `<button>`, `<script>`, `<link>` and others            | Defines the element or resource type | Input types and external resources           |
+| `name`        | Specific | Form controls and several other elements                          | Gives an element a name              | Form submission and scripting                |
+| `value`       | Specific | `<input>`, `<button>`, `<option>`, `<li>` and others              | Defines an element value             | Forms and list values                        |
 
 global attributes such as `id` , `class` , `style` and `title` can generally be used with any HTML element , while specific attributes such as `href` , `src` and `alt` are limited to elements that define their behavior .
 
@@ -231,20 +231,20 @@ the browser displays :
 <p>Hello & World</p>
 ```
 
-| **Character**      | **Named entity** | **Decimal reference** | **Common use**                               |
-| ------------------ | ---------------- | --------------------- | -------------------------------------------- |
-| `&`                | `&amp;`          | `&#38;`               | Ampersand.                                   |
-| `<`                | `&lt;`           | `&#60;`               | Less-than symbol.                            |
-| `>`                | `&gt;`           | `&#62;`               | Greater-than symbol.                         |
-| `"`                | `&quot;`         | `&#34;`               | Double quotation mark.                       |
-| `'`                | `&apos;`         | `&#39;`               | Apostrophe or single quotation mark.         |
-| non-breaking space | `&nbsp;`         | `&#160;`              | Prevents a normal line break between spaces. |
-| `©`                | `&copy;`         | `&#169;`              | Copyright symbol.                            |
-| `®`                | `&reg;`          | `&#174;`              | Registered trademark symbol.                 |
-| `™`                | `&trade;`        | `&#8482;`             | Trademark symbol.                            |
-| `€`                | `&euro;`         | `&#8364;`             | Euro symbol.                                 |
-| `£`                | `&pound;`        | `&#163;`              | Pound symbol.                                |
-| `°`                | `&deg;`          | `&#176;`              | Degree symbol.                               |
+| **Character**      | **Named entity** | **Decimal reference** | **Common use**                              |
+| ------------------ | ---------------- | --------------------- | ------------------------------------------- |
+| `&`                | `&amp;`          | `&#38;`               | Ampersand                                   |
+| `<`                | `&lt;`           | `&#60;`               | Less-than symbol                            |
+| `>`                | `&gt;`           | `&#62;`               | Greater-than symbol                         |
+| `"`                | `&quot;`         | `&#34;`               | Double quotation mark                       |
+| `'`                | `&apos;`         | `&#39;`               | Apostrophe or single quotation mark         |
+| non-breaking space | `&nbsp;`         | `&#160;`              | Prevents a normal line break between spaces |
+| `©`                | `&copy;`         | `&#169;`              | Copyright symbol                            |
+| `®`                | `&reg;`          | `&#174;`              | Registered trademark symbol                 |
+| `™`                | `&trade;`        | `&#8482;`             | Trademark symbol                            |
+| `€`                | `&euro;`         | `&#8364;`             | Euro symbol                                 |
+| `£`                | `&pound;`        | `&#163;`              | Pound symbol                                |
+| `°`                | `&deg;`          | `&#176;`              | Degree symbol                               |
 
 for example :
 
