@@ -1,0 +1,99 @@
+* {
+  font-family: sans-serif;
+}
+
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --text-color: #333;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+header > nav {
+  text-align: left;
+  font-size: 1em;
+}
+
+#hero {
+  height: 40vh;
+  width: 80vw;
+  --image-position: 80% center;
+  background-color: #eee;
+  background-image: url("../assets/images/correct.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: var(--image-position);
+  background-attachment: scroll;
+}
+
+#hero .hero-bio {
+  max-width: 200px;
+  min-height: 20px;
+  height: 55px;
+  overflow: hidden;
+}
+
+.mark-red {
+  color: red;
+}
+
+#jobTitle {
+  background: var(--primary-color);
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+#profileImg:hover {
+  width: 120px;
+  cursor: progress;
+}
+
+#about {
+  height: 150px;
+  background: #fff url("../assets/images/correct.png") no-repeat 30% center
+    scroll;
+  background-size: 150px 150px;
+}
+
+/* group selector */
+.skill-container .skill-item,
+.learning-journey-container .skill-item {
+  background: var(--secondary-color);
+  margin: 2px 0;
+  width: fit-content;
+  color: white;
+  cursor: grab;
+  overflow: auto;
+}
+
+.skill-container .important-skill {
+  /* I !important used it because of important skill have higher priorty more than useful skill */
+  background-color: tomato !important;
+}
+
+.skill-container .useful-skill {
+  background-color: blue;
+}
+
+.skill-container #uniqueSkill {
+  /* Specificity is in here , id have higher priority */
+  background-color: green;
+}
+
+.learning-journey-container {
+  height: 100px;
+  width: 150px;
+  overflow: scroll;
+}
+
+#contactMeButton {
+  cursor: not-allowed;
+}
+
+.contact-note {
+  color: red;
+}
