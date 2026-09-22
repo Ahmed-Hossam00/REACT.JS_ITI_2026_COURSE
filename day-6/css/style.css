@@ -71,7 +71,7 @@ header > nav {
 }
 
 .skill-container .important-skill {
-  /* I !important used it because of important skill have higher priorty more than useful skill */
+  /* !important used it because of important skill have higher priorty more than useful skill */
   background-color: tomato !important;
 }
 

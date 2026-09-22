@@ -1,0 +1,82 @@
+:root {
+  --primary-color: #413333;
+  --secondary-color: #f5ebdd;
+  --text-color: #f2765e;
+}
+
+body {
+  background-color: var(--secondary-color);
+  font-family: "Press Start 2P", system-ui;
+}
+
+.card-container {
+  background-color: var(--primary-color);
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  padding: 60px 40px;
+  border: 4px dotted var(--text-color);
+}
+
+.card-container .personal-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.card-container .personal-name,
+.card-container .job-title,
+.card-container .personal-description {
+  text-align: center;
+  color: var(--text-color);
+}
+
+.personal-name {
+  font-weight: 800;
+  font-size: 2rem;
+  text-shadow: 1px 5px var(--secondary-color);
+}
+
+.job-title {
+  width: fit-content;
+  background-color: var(--text-color);
+  margin: 0 auto;
+  padding: 10px;
+  color: var(--primary-color) !important;
+}
+
+.personal-description {
+  line-height: 25px;
+  letter-spacing: 2.5px;
+  text-shadow: 0 2px rgba(255, 255, 255, 0.3);
+}
+
+.personal-description strong {
+  color: white;
+}
+
+hr {
+  margin: 30px 0;
+  border: #ffffff20 1px solid;
+}
+
+.contact-button {
+  display: block;
+  border: none;
+  padding: 15px 45px;
+  margin: 0 auto;
+  /* border-radius: 10px; */
+  font-size: 1.2rem;
+  font-family: "Press Start 2P", system-ui;
+  text-shadow: 0 4px rgba(150, 150, 150, 0.8);
+}
+
+.contact-button:hover {
+  background-color: #f2765e;
+  color: #413333;
+  cursor: pointer;
+  padding: 15px 50px;
+}

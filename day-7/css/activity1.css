@@ -1,0 +1,56 @@
+.container {
+  width: 60%;
+  background: rgb(181, 255, 181);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: green 2px dashed;
+  font-family: sans-serif;
+
+  /* box-shadow: 10px 30px 40px rgba(0, 100, 0, 0.3); */
+}
+
+.container .profile-img-container {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.profile-img-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: green 4px dashed;
+}
+
+.container .bio-container {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.container .profile-name,
+.container .profile-job-title {
+  color: green;
+}
+
+.bio-container .profile-quote {
+  background: rgb(16, 102, 16);
+  padding: 15px;
+  color: white;
+  border-radius: 10px 10px 10px 0;
+}
+
+.container .profile-follow-container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.profile-follow-container .follow-button {
+  background-color: rgb(98, 203, 98);
+  color: black;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
