@@ -12,11 +12,11 @@ body {
 .card-container {
   background-color: var(--primary-color);
   width: 500px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
   margin: 0 auto;
   padding: 60px 40px;
-  border: 4px dotted var(--text-color);
+  border: 4px dashed var(--text-color);
 }
 
 .card-container .personal-image {
@@ -24,7 +24,7 @@ body {
   height: 200px;
   margin: 0 auto;
   display: block;
-  border-radius: 50%;
+  border-radius: 5px;
 }
 
 .card-container .personal-name,
