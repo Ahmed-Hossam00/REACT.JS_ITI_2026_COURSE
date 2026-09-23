@@ -134,7 +134,10 @@ nav ul li a {
 
 .content-container h2 {
   font-weight: 400;
-  margin-bottom: 25px;
+}
+
+.content-container p {
+  margin: 25px 0;
 }
 
 .about-us div ul li img {
