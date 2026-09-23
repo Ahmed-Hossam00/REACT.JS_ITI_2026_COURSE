@@ -1,5 +1,6 @@
 :root {
   --main-color: #8d7753;
+  --main-color-low-transparency: #8d775365;
   --global-alignment-measures-x: 400px;
 }
 
@@ -131,9 +132,14 @@ nav ul li a {
   width: 50%;
 }
 
+.content-container h2 {
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
 .about-us div ul li img {
   width: 50px;
-  border: 1px solid var(--main-color);
+  border: 1px solid var(--main-color-low-transparency);
   padding: 10px;
   border-radius: 50%;
 }
