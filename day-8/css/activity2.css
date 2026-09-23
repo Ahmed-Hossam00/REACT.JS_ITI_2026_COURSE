@@ -1,0 +1,14 @@
+.box {
+  background: teal;
+  width: 200px;
+  height: 100px;
+  margin: 0;
+  transition-duration: 500ms;
+  transition-property: margin-left, width;
+  transition-delay: 100ms;
+}
+
+.box:hover {
+  margin-left: 50px;
+  width: 150px;
+}
