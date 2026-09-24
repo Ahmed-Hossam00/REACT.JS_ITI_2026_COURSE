@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  /* width: 400px; */
+  height: 100dvh;
+  background-color: lightblue;
+  gap: 5px;
+  grid-template-areas:
+    "one two three"
+    "four two five  "
+    "four six seven";
+}
+
+.container div {
+  background-color: lightgreen;
+  border: green 1px solid;
+  padding: 10px;
+  word-break: break-all;
+  text-align: center;
+  margin: 10px;
+  border-radius: 15px;
+  font-size: 36px;
+}
+
+.container .box-1 {
+  grid-area: one;
+}
+
+.container .box-2 {
+  grid-area: two;
+}
+
+.container .box-3 {
+  grid-area: three;
+}
+
+.container .box-4 {
+  grid-area: four;
+}
+.container .box-5 {
+  grid-area: five;
+}
+.container .box-6 {
+  grid-area: six;
+}
+.container .box-7 {
+  grid-area: seven;
+}

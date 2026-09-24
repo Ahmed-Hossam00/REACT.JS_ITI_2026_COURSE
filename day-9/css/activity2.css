@@ -1,0 +1,132 @@
+:root {
+  --main-color: #0199cb;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  background-color: #0199cb;
+  color: white;
+  padding: 10px;
+}
+
+header div nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-areas:
+    "articles aside grid-articles"
+    "comments comments comments"
+    "empty empty empty"
+    "footer footer footer";
+  height: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 200px 1fr 50px;
+  padding: 40px;
+  gap: 20px;
+}
+
+.main-container main {
+  grid-area: articles;
+  padding: 10px;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main section article h2 {
+  margin-bottom: 20px;
+}
+
+.main-container aside {
+  grid-area: aside;
+  background-color: #eee;
+  height: fit-content;
+  padding: 20px;
+}
+
+.main-container .grid-articles {
+  grid-area: grid-articles;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.grid-articles .grid-item {
+  text-align: center;
+}
+
+.grid-articles .grid-item .img-box {
+  width: 100%;
+  height: 80px;
+  background-color: var(--main-color);
+}
+
+.grid-item div button {
+  background: var(--main-color);
+  padding: 5px 20px;
+  color: white;
+  border: none;
+}
+
+.main-container .comment-container {
+  grid-area: comments;
+  width: 100%;
+}
+
+.main-container footer {
+  grid-area: footer;
+  height: fit-content;
+  padding: 10px;
+  background-color: var(--main-color);
+  color: white;
+  text-align: center;
+}
+
+.comments-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.comment-container label {
+  align-self: flex-start;
+}
+
+.comments-form input {
+  width: 100%;
+  padding: 10px;
+}
+
+.comment-container button {
+  background-color: var(--main-color);
+  padding: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

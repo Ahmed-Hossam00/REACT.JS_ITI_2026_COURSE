@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  width: 50%;
+  min-width: 800px;
+  margin: 0 auto;
+  height: 100dvh;
+  /* background-color: lightblue; */
+  gap: 10px;
+  grid-template-areas:
+    "one two three"
+    "four two five  "
+    "four six seven";
+
+  padding: 15px;
+}
+
+.container > div {
+  background-color: lightgreen;
+  border: green 1px solid;
+  padding: 10px;
+  word-break: break-all;
+  text-align: center;
+
+  font-size: 36px;
+  color: white;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.container > div:hover .box-content > div {
+  visibility: visible;
+  transform: translate(0, 0);
+}
+
+.container > div:hover .overlay {
+  background-color: #000000aa;
+}
+
+.container .overlay {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #00000060;
+}
+
+.container .box-content {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1rem;
+}
+
+.box-content > div {
+  visibility: hidden;
+  transform: translate(0, 20px);
+  transition-duration: 200ms;
+  transition-property: transform visiblity;
+  transition-timing-function: ease-in-out;
+}
+
+.container .box-1 {
+  grid-area: one;
+
+  background-image: url("../assets/images/square_image.jpg");
+}
+
+.container .box-2 {
+  grid-area: two;
+  background-image: url("../assets/images/tall_image.jpg");
+}
+
+.container .box-3 {
+  grid-area: three;
+  background-image: url("../assets/images/square_image2.jpg");
+}
+
+.container .box-4 {
+  grid-area: four;
+  background-image: url("../assets/images/tall_image2.jpg");
+}
+.container .box-5 {
+  grid-area: five;
+  background-image: url("../assets/images/square_image.jpg");
+}
+.container .box-6 {
+  grid-area: six;
+  background-image: url("../assets/images/square_image.jpg");
+}
+.container .box-7 {
+  grid-area: seven;
+  background-image: url("../assets/images/square_image2.jpg");
+}
