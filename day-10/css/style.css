@@ -40,10 +40,30 @@ nav a {
   color: black;
   text-decoration: none;
   font-size: 22px;
+  position: relative;
+}
+
+nav a:not(.active)::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--dark-brown);
+  transition: 200ms;
+}
+
+nav a:not(.active):hover::before {
+  width: 100%;
 }
 
 nav a.active {
   border-bottom: var(--main-color) 2px solid;
+}
+
+.hero-section {
+  position: relative;
 }
 
 .hero-section main {
@@ -53,6 +73,7 @@ nav a.active {
   align-items: center;
   justify-content: space-between;
   overflow-x: hidden;
+  /* position: relative; */
 }
 
 main .text-content {
@@ -111,6 +132,16 @@ main .text-content h2 {
   width: 100%;
 }
 
+.gradients-container .top-gradient {
+  width: 550px;
+  height: 550px;
+  background: radial-gradient(circle, #888fc4 0%, #6b719d65 30%, #6b719d00 70%);
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
 .courses-section {
   background-color: var(--dark-brown);
 }
@@ -119,6 +150,7 @@ main .text-content h2 {
 .instructors-section,
 .reviews-section {
   padding: 100px 20px;
+  border-radius: 20px;
 }
 
 .section-title {
@@ -144,8 +176,12 @@ main .text-content h2 {
 }
 
 .courses-container {
-  display: flex;
+  display: grid;
   gap: 25px;
+
+  grid-template-areas:
+    "webdev database"
+    "mobile mobile";
 }
 
 .course-card {
@@ -154,6 +190,11 @@ main .text-content h2 {
   border: 2px solid #eee;
   /* border-radius: 15px; */
   background-color: white;
+  border-radius: 20px;
+}
+
+.course-card:nth-child(3) {
+  grid-area: mobile;
 }
 
 .course-card i {
@@ -179,6 +220,7 @@ main .text-content h2 {
   font-weight: 600;
   padding: 10px;
   background-color: var(--main-color);
+  border-radius: 10px;
 }
 
 .instructors-section {
@@ -424,6 +466,21 @@ footer {
   color: #bbb;
   font-size: 14px;
   padding: 40px 0 0 0;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+  width: 60px;
+  height: 60px;
+  background: var(--main-color);
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
