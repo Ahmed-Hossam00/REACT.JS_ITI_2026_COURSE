@@ -484,6 +484,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  body {
+    padding: 0 10px;
+  }
   header {
     flex-direction: column;
     gap: 20px;
@@ -539,7 +542,7 @@ footer {
   .instructors-section,
   .reviews-section,
   .contact-section {
-    padding: 70px 0;
+    padding: 70px 10px;
   }
 
   .section-title h2,
