@@ -1,3 +1,5 @@
+# A simple text based story Game
+
 ![Screenshot](./assets/screen_shots/image.png)
 
 ---
