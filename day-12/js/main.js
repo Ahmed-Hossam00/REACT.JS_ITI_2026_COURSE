@@ -57,9 +57,7 @@ var missions = [
         onCompleted: () => {
           activateArea("blackSmith");
           activateMission(2);
-
           increasePlayerProgression(5);
-
           player.objective.objectiveMessage = "Talk to the blacksmith";
         },
         dialogue: [
