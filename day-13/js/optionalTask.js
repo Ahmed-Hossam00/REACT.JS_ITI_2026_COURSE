@@ -355,6 +355,7 @@ function getAverageGrades(students) {
 printSepeator(`========= Part 45 =============`);
 
 console.log(Math.random());
+console.log(Math.round("5.6"));
 console.log(Math.floor(15.5));
 console.log(Math.ceil(15.5));
 console.log(Math.max(10, 20));
