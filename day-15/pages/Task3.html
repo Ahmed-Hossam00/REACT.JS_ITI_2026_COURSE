@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD System</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="Task3">
+    <main class="container-fluid product-page py-2">
+      <section class="product-form-panel mx-auto">
+        <h1 class="product-form-title text-center">CRUD SYSTEM</h1>
+        <form class="product-form" id="productForm">
+          <input
+            type="text"
+            class="form-control"
+            id="productName"
+            placeholder="Product Name"
+            aria-label="Product Name"
+            required
+          />
+          <input
+            type="number"
+            class="form-control"
+            id="productPrice"
+            placeholder="Product Price"
+            aria-label="Product Price"
+            min="0"
+            required
+          />
+          <input
+            type="text"
+            class="form-control"
+            id="productCategory"
+            placeholder="Product Category"
+            aria-label="Product Category"
+            required
+          />
+          <textarea
+            class="form-control product-description"
+            id="productDescription"
+            placeholder="Product Description"
+            aria-label="Product Description"
+          ></textarea>
+          <div class="product-image-field">
+            <label for="productImage" class="form-label">Product Image</label>
+            <input
+              type="file"
+              class="form-control"
+              id="productImage"
+              accept="image/*"
+            />
+          </div>
+          <button
+            type="submit"
+            id="productSubmit"
+            class="btn btn-primary btn-sm"
+          >
+            Add Product
+          </button>
+        </form>
+      </section>
+      <hr />
+      <div class="product-search mx-auto">
+        <input
+          type="search"
+          class="form-control form-control-sm"
+          id="productSearch"
+          placeholder="Search By Name..."
+          aria-label="Search products by name"
+        />
+      </div>
+
+      <section class="product-list mx-auto" aria-label="Products">
+        <div class="row g-3 mb-5" id="productGrid"></div>
+      </section>
+    </main>
+    <script src="../js/Task3.js"></script>
+  </body>
+</html>

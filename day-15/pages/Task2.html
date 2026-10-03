@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My To-Do List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="Task2 d-flex align-items-center justify-content-center">
+    <main class="wrapper todo-card w-50">
+      <h3 class="text-center">My To-Do List</h3>
+      <form id="myForm" class="d-flex gap-2">
+        <input
+          type="text"
+          id="todoInput"
+          class="form-control p-2"
+          placeholder="Add a new task..."
+        />
+        <button type="submit" class="btn btn-primary addBtn px-3">Add</button>
+      </form>
+      <ul id="todoList" class="list-group list-group-flush"></ul>
+    </main>
+    <script src="../js/Task2.js"></script>
+  </body>
+</html>

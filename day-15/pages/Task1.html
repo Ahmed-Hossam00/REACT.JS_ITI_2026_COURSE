@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      body {
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body class="Task1">
+    <div class="wrapper container my-5">
+      <div
+        id="recipesSearch"
+        class="row g-3 justify-content-center align-items-center mb-4"
+      >
+        <div class="col-md-12">
+          <input
+            type="text"
+            id="recipesKeyword"
+            class="form-control form-control-lg"
+            placeholder="Search recipes..."
+          />
+        </div>
+        <div class="col-md-12">
+          <select id="recipesSelect" class="form-select form-select-lg">
+            <option value="">Choose a category</option>
+          </select>
+        </div>
+      </div>
+      <div class="recepies-container row g-4 justify-content-center"></div>
+    </div>
+    <script src="../js/Task1.js"></script>
+  </body>
+</html>

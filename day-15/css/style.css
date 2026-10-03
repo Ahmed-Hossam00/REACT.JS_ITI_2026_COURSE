@@ -1,0 +1,235 @@
+Task1.body {
+  background-color: lightblue;
+}
+.recipe-image {
+  height: 250px;
+  object-fit: cover;
+}
+
+.Task2 {
+  min-height: 100vh;
+  padding: 16px;
+  background-color: #f5f6fa;
+  color: #222;
+}
+
+.todo-card {
+  width: min(306px, 100%);
+  padding: 25px 18px 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 8px 24px rgb(31 41 55 / 10%);
+}
+
+.todo-card h3 {
+  margin: 0 0 18px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.todo-card #myForm {
+  margin-bottom: 18px;
+}
+
+.todo-card #myInput,
+.todo-card .addBtn {
+  min-height: 28px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 13px;
+}
+
+.todo-card .addBtn {
+  flex: 0 0 auto;
+  padding-right: 14px;
+  padding-left: 14px;
+  font-weight: 600;
+}
+
+.todo-card .list-group-item {
+  min-height: 40px;
+  padding: 10px 6px;
+  border-color: #f0f0f0;
+  color: #555;
+  font-size: 12px;
+}
+
+.todo-actions {
+  gap: 14px;
+}
+
+.todo-actions button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.todo-actions .edit {
+  color: #f47745;
+}
+
+.todo-actions .delete {
+  color: #9994a5;
+}
+
+.Task3 {
+  min-height: 100vh;
+  background-color: #fff;
+  color: #17191b;
+}
+
+.product-page {
+  padding-top: 6px !important;
+}
+
+.product-form-panel {
+  width: min(1050px, calc(100% - 16px));
+  padding: 6px;
+  border-radius: 14px;
+  background-color: #969da2;
+}
+
+.product-form-title {
+  margin: 0 0 6px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.product-form {
+  display: grid;
+  gap: 12px;
+}
+
+.product-form > .form-control {
+  min-height: 46px;
+  font-size: 13px;
+}
+
+.product-form > .product-description {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.product-image-field {
+  overflow: hidden;
+  min-height: 46px;
+  padding: 3px 10px 2px;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.product-image-field .form-label {
+  display: block;
+  margin: 0;
+  color: #6c757d;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.product-image-field .form-control {
+  min-height: 22px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.product-image-field .form-control:focus {
+  box-shadow: none;
+}
+
+.product-form .btn {
+  justify-self: start;
+  font-size: 13px;
+}
+
+.product-search {
+  width: min(1120px, calc(100% - 16px));
+  margin-top: 6px;
+}
+
+.product-search .form-control {
+  min-height: 31px;
+  font-size: 13px;
+}
+
+.product-list {
+  width: min(1120px, calc(100% - 16px));
+  margin-top: 18px;
+}
+
+.product-card {
+  overflow: hidden;
+  border-color: #dee2e6;
+  color: #343a40;
+  font-size: 13px;
+}
+
+.product-card-image,
+.product-card-placeholder {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.product-card-placeholder {
+  display: grid;
+  place-items: center;
+  background-color: #e9ecef;
+  color: #6c757d;
+}
+
+.product-card .card-title {
+  color: #17191b;
+}
+
+.product-card-category {
+  color: #6c757d;
+}
+
+.product-card-description {
+  overflow: hidden;
+}
+
+.product-card-price {
+  color: #17191b;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.product-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.product-actions .btn {
+  width: 32px;
+  height: 30px;
+  padding: 0;
+}
+
+hr {
+  margin: 18px auto;
+
+  width: min(1120px, calc(100% - 16px));
+}
+
+@media (max-width: 576px) {
+  .product-form-panel {
+    width: 100%;
+  }
+
+  .product-search,
+  .product-list {
+    width: 100%;
+  }
+
+  .product-form-title {
+    font-size: 26px;
+  }
+}
