@@ -10,10 +10,7 @@ export default function Hero() {
         <div className="row align-items-center g-4">
           <div className="col-lg-8">
             <h1 className="display-5 fw-bold">Welcome to my website</h1>
-            <p className="lead text-secondary">
-              This is a simple place to share ideas, learn something new, and
-              see what I’m working on.
-            </p>
+            <p className="lead text-secondary">Hello there !</p>
             <button
               className="btn btn-primary"
               onClick={() => setCount((currentCount) => currentCount + 1)}
